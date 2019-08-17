@@ -1,0 +1,24 @@
+/* .button {
+    background-color: transparent;
+      display: inline-block;
+      font-size: 16px;
+      color: white;
+      cursor: pointer;
+      border-radius: 163px;
+      width: 166px;
+      height: 42px;
+  } */
+  .button {
+    border-radius: 20px;
+    width: 70%;
+    /* margin-left: auto; */
+    height: 34px;
+    background-color: transparent;
+    color:white
+
+  }
+  
+  .buttonWithBlackColor{
+    composes:button;
+    color:#000000;
+  }
